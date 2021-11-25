@@ -12,8 +12,8 @@
     ]
   },
 	
-	"VueJS Template": {
-		"prefix": "vueTemplate",
+	"VueJS Component Template": {
+		"prefix": "componentTemplate",
 		"body": [
 			"<template>",
 			"  <${1:TAG_NAME}>$TM_FILENAME_BASE</${1:TAG_NAME}>",

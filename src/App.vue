@@ -1,14 +1,14 @@
 <template>
   <div>
-    <ServiceList />
+    <Presentation />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { ServiceList } from '@/components/molecules'
+import { Presentation } from '@/components/organisms'
 
 export default defineComponent({
-  components: { ServiceList }
+  components: { Presentation }
 })
 </script>
