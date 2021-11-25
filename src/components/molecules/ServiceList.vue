@@ -27,5 +27,8 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
 }
 </style>
