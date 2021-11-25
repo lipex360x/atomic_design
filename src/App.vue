@@ -1,9 +1,14 @@
 <template>
-  <div>Hello</div>
+  <div>
+    <Logo />
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { Logo } from '@/components/atoms'
 
-export default defineComponent({})
+export default defineComponent({
+  components: { Logo }
+})
 </script>
