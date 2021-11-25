@@ -1,12 +1,12 @@
 <template>
-  <Home />
+  <HomeTemplate />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Home } from '@/components/pages'
+import { HomeTemplate } from '@/components/templates'
 
 export default defineComponent({
-  components: { Home }
+  components: { HomeTemplate }
 })
 </script>
