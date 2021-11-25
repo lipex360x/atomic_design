@@ -1,0 +1,35 @@
+{
+  "Template Snippets": {
+    "prefix": "snippetTemplate",
+    "body": [
+      "\"${1:SNIPPET_TITLE}\": {",
+      "  \"prefix\": \"${2:PREFIX}\",",
+      "  \"body\": [",
+      "    \"${3:BODY}\"",
+      "  ]",
+      "},",
+      "",
+    ]
+  },
+	
+	"VueJS Template": {
+		"prefix": "vueTemplate",
+		"body": [
+			"<template>",
+			"  <section>Hello</section>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+			"import { defineComponent } from 'vue'",
+			"",
+			"export default defineComponent({})",
+			"</script>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"section {}",
+			"",
+			"</style>",
+		]
+	},
+	
+}
