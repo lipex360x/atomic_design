@@ -1,14 +1,14 @@
 <template>
   <div>
-    <NavBar />
+    <SearchBar />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavBar } from '@/components/molecules'
+import { SearchBar } from '@/components/molecules'
 
 export default defineComponent({
-  components: { NavBar }
+  components: { SearchBar }
 })
 </script>
