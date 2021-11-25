@@ -16,7 +16,7 @@
 		"prefix": "vueTemplate",
 		"body": [
 			"<template>",
-			"  <${1:TAG_NAME}>Hello $TM_FILENAME_BASE</${1:TAG_NAME}>",
+			"  <${1:TAG_NAME}>$TM_FILENAME_BASE</${1:TAG_NAME}>",
 			"</template>",
 			"",
 			"<script lang=\"ts\">",
@@ -51,7 +51,5 @@
 			"}",
 		]
 	},
-	
-	
 	
 }

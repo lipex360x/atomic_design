@@ -1,14 +1,14 @@
 <template>
   <div>
-    <SocialNetwork />
+    <ServiceList />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { SocialNetwork } from '@/components/molecules'
+import { ServiceList } from '@/components/molecules'
 
 export default defineComponent({
-  components: { SocialNetwork }
+  components: { ServiceList }
 })
 </script>
